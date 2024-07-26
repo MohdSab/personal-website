@@ -5,7 +5,7 @@ Welcome to my portfolio repository! This space showcases my journey as a softwar
 Contact
 For any inquiries, you can reach me at:
 
-Email: m.sabagh1802@gmail.com
 LinkedIn: Mohamad Sabagh
 GitHub: MohdSab
+
 Thank you for visiting my portfolio! I hope you find the projects here insightful and engaging.
