@@ -1291,12 +1291,7 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			/* width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
-			border: solid 1px #ffffff;
-			border-radius: 100%; */
-			width: 150px; /* Same size as the previous logo container */
+			width: 150px; 
 			height: 150px;
 			line-height: 500px;
 			border: solid 1px #ffffff; /* Circle border */
