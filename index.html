@@ -7,6 +7,20 @@
 		<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.video-container {
+			  position: relative;
+			  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+			  height: 0;
+			}
+			.video-container iframe {
+			  position: absolute;
+			  top: 0;
+			  left: 0;
+			  width: 100%;
+			  height: 100%;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -77,19 +91,45 @@
 						<!-- Projects -->
 							<article id="projects">
 								<h2 class="major">projects</h2>
-								<span class="image main"><a href="https://youtu.be/zJNkEs6mZyU"><img src="images/bugbuster.png" alt="bug busters multiplayer webpage" /></a></span>
-								<h3>Bug Busters GameHub Web App</h3>
-								<h4>Typescript, React.js, Nest.js, PostgreSQL, Docker, Nx</h4>
+								<span class="image main">
+									<div class="video-container">
+										<iframe src="https://www.youtube.com/embed/ju1BVggEDNc" frameborder="0" allowfullscreen></iframe>
+									</div>
+								</span>
+								<h3>Inventory Tracker Web App</h3>
+								<h4>Next.js, React, Material UI, firebase, vercel, ci/cd</h4>
 								<ul>
-									<li>Implemented <b>DevOps</b> practices to ensure resource availability for creating a multiplayer gamehub webpage.</li>
-									<li>Set up a <b>monolithic NX workspace</b> integrating all necessary microservices in a single repository.</li>
-									<li>Developed a <b>Docker containerized</b> application, creating an image that can run on different endpoints.</li>
-									<li>Established <b>CI/CD automation protocols</b> like GitHub Actions for continuous testing and progress tracking.</li>
-									<li>Organized and managed <b>scrum and sprint meetings</b>, maintaining issue documentation and templates.</li>
+									<li>Set up a Next.JS project with Material UI components.</li>
+									<li>Implemented a Firebase backend for data storage.</li>
+									<li>Created a modern and reactive frontend to display inventory items.</li>
+									<li>Used barchart to visually represent the inventory stock.</li>
+									<li>Deployed on Vercel and used CI/CD.</li>
 								</ul>
-								<h6><a href="https://youtu.be/zJNkEs6mZyU">click here or on the image above for demo video</a></h6>
+								<h6><a href="https://invent-tracker.vercel.app/" target="_blank">click here to visit the web application</a></h6>
 								<hr>
-								<span class="image main"><a href="https://youtu.be/NGRLp3CUoqs"><img src="images/forcesense.png" alt="forcesense biobsy robot" /></a></span>
+								<!-- <span class="image main"><a href="https://youtu.be/zJNkEs6mZyU"><img src="images/bugbuster.png" alt="bug busters multiplayer webpage" /></a></span> -->
+								<span class="image main">
+									<div class="video-container">
+										<iframe src="https://www.youtube.com/embed/zJNkEs6mZyU" frameborder="0" allowfullscreen></iframe>
+									</div>
+								</span>
+								<h3>Bug Busters GameHub Web App</h3>
+								<h4>Typescript, React, Nest.js, PostgreSQL, Docker, Nx</h4>
+								<ul>
+									<li>Implemented DevOps practices to ensure resource availability for creating a multiplayer gamehub webpage.</li>
+									<li>Set up a monolithic NX workspace integrating all necessary microservices in a single repository.</li>
+									<li>Developed a Docker containerized application, creating an image that can run on different endpoints.</li>
+									<li>Established CI/CD automation protocols like GitHub Actions for continuous testing and progress tracking.</li>
+									<li>Organized and managed scrum and sprint meetings, maintaining issue documentation and templates.</li>
+								</ul>
+								<!-- <h6><a href="https://youtu.be/zJNkEs6mZyU">click here for the Youtube video link</a></h6> -->
+								<hr>
+								<!-- <span class="image main"><a href="https://youtu.be/NGRLp3CUoqs"><img src="images/forcesense.png" alt="forcesense biobsy robot" /></a></span> -->
+								<span class="image main">
+									<div class="video-container">
+										<iframe src="https://www.youtube.com/embed/NGRLp3CUoqs" frameborder="0" allowfullscreen></iframe>
+									</div>
+								</span>
 								<h3>Force Sense Biopsy Medical Robot Integration</h3>
 								<h4>Collaborative Robots, C++, LibFranka, FCI</h4>
 								<ul>
@@ -98,9 +138,14 @@
 									<li>Determined inverse kinematics algebraically to manipulate the robots end effector.</li>
 									<li>Utilized the LibFranka library to read sensor data and apply resistance proportional to detected collisions.</li>
 								</ul>
-								<h6><a href="https://youtu.be/NGRLp3CUoqs">click here or on the image above for demo video</a></h6>
+								<!-- <h6><a href="https://youtu.be/NGRLp3CUoqs">click here for the Youtube video link</a></h6> -->
 								<hr>
-								<span class="image main"><a href="https://youtu.be/ss9fwl5NyPU"><img src="images/teleop.png" alt="teleoperation robot" /></a></span>
+								<!-- <span class="image main"><a href="https://youtu.be/ss9fwl5NyPU"><img src="images/teleop.png" alt="teleoperation robot" /></a></span> -->
+								<span class="image main">
+									<div class="video-container">
+										<iframe src="https://www.youtube.com/embed/ss9fwl5NyPU" frameborder="0" allowfullscreen></iframe>
+									</div>
+								</span>
 								<h3>Tele-Operation Robotics Program</h3>
 								<h4>Collaborative Robots, C++, LibFranka, FCI</h4>
 								<ul>
@@ -109,9 +154,14 @@
 									<li>Bilateral mode of control that allows both robots to send and receive instructions from each other.</li>
 									<li>Developed scaled operation in both modes to allows for higher precision by scaling down onto second robot.</li>
 								</ul>
-								<h6><a href="https://youtu.be/ss9fwl5NyPU">click here or on the image above for demo video</a></h6>
+								<!-- <h6><a href="https://youtu.be/ss9fwl5NyPU">click here for the Youtube video link</a></h6> -->
 								<hr>
-								<span class="image main"><a href="https://youtu.be/EN2ZNHRerog"><img src="images/flatter.png" alt="flatter.tech landing page" /></a></span>
+								<!-- <span class="image main"><a href="https://youtu.be/EN2ZNHRerog"><img src="images/flatter.png" alt="flatter.tech landing page" /></a></span> -->
+								<span class="image main">
+									<div class="video-container">
+										<iframe src="https://www.youtube.com/embed/EN2ZNHRerog?mute=1"" frameborder="0" allowfullscreen></iframe>
+									</div>
+								</span>
 								<h3>Flatter.tech - AI tailored compliments</h3>
 								<h4>JavaScript, HTML, CSS, Python, Flask, API, OpenAI</h4>
 								<ul>
@@ -119,9 +169,14 @@
 									<li>Implemented a Flask back-end to handle image uploads and API requests.</li>
 									<li>Utilized JavaScript to create a dynamic front-end that displays image captions and analysis.</li>
 								</ul>
-								<h6><a href="https://youtu.be/EN2ZNHRerog">click here or on the image above for demo video</a></h6>
+								<!-- <h6><a href="https://youtu.be/EN2ZNHRerog">click here for the Youtube video link</a></h6> -->
 								<hr>
-								<span class="image main"><a href="https://youtu.be/4iNxmot4aic"><img src="images/tetris.png" alt="Tetris Game" /></a></span>
+								<!-- <span class="image main"><a href="https://youtu.be/4iNxmot4aic"><img src="images/tetris.png" alt="Tetris Game" /></a></span> -->
+								<span class="image main">
+									<div class="video-container">
+										<iframe src="https://www.youtube.com/embed/4iNxmot4aic" frameborder="0" allowfullscreen></iframe>
+									</div>
+								</span>
 								<h3>Tetris Game</h3>
 								<h4>Java, JavaFX, IntilliJ</h4>
 								<ul>
@@ -130,9 +185,14 @@
 									<li>Utilized JavaFX to create a dynamic front-end that displays the game.</li>
 									<li>Implemented save state and load state to keep the progress saved.</li>
 								</ul>
-								<h6><a href="https://youtu.be/4iNxmot4aic">click here or on the image above for demo video</a></h6>
+								<!-- <h6><a href="https://youtu.be/4iNxmot4aic">click here for the Youtube video link</a></h6> -->
 								<hr>
-								<span class="image main"><a href="https://youtu.be/W0HBs-1fb6M"><img src="images/boggle.png" alt="Boggle Game" /></a></span>
+								<!-- <span class="image main"><a href="https://youtu.be/W0HBs-1fb6M"><img src="images/boggle.png" alt="Boggle Game" /></a></span> -->
+								 <span class="image main">
+									<div class="video-container">
+										<iframe src="https://www.youtube.com/embed/W0HBs-1fb6M" frameborder="0" allowfullscreen></iframe>
+									</div>
+								 </span>
 								<h3>Boggle Game</h3>
 								<h4>Java, JavaFX, IntilliJ</h4>
 								<ul>
@@ -141,7 +201,7 @@
 									<li>Utilized JavaFX to create a dynamic front-end that displays the game.</li>
 									<li>Implemented hints and level difficulty selection to increase quality of life features.</li>
 								</ul>
-								<h6><a href="https://youtu.be/4iNxmot4aic">click here or on the image above for demo video</a></h6>
+								<!-- <h6><a href="https://youtu.be/4iNxmot4aic">click here for the Youtube video link</a></h6> -->
 							</article>
 
 						<!-- Contact -->
@@ -167,7 +227,7 @@
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form> -->
-								<h3>Email: m.sabagh1802[at]gmail[dot]com </h3>
+								<h3>Email: <a href="mailto:m.sabagh1802@gmail.com">m.sabagh1802@gmail.com</a></h3>
 								<ul class="icons">
 									<li><a href="https://www.linkedin.com/in/mohamad-sabagh-61792817a/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 									<li><a href="https://github.com/MohdSab" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
